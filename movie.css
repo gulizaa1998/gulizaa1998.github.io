@@ -1,0 +1,98 @@
+body{
+	background: url(flower.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+background-size: cover;
+}
+
+h1,p{
+
+	text-align: center;
+	color:white;
+}
+
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+.column {
+    float: left;
+    
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+img{
+	width: 400px;
+	height: 600px;
+	padding:10px;
+	margin-left: 15px;
+	border-style: inset;
+	border-color:aqua;
+}
+
+  img.tris{
+	width: 850px;
+	height: 600px;
+	margin-left: 6cm;
+}
+a,h2{
+	color: white;
+	text-align: center;
+}
+.column1 {
+    float: left;
+    
+}
+
+.row1::after {
+    content: "";
+    clear: both;
+    display: flex;}
+img{
+	width: 400px;
+	height: 600px;
+	padding: 10px;
+   margin-left: 15px;
+}
+.column2 {
+    float: left;
+   }
+
+.row2::after {
+    content: "";
+    clear: both;
+    display: flex;}
+   img.you{
+    width: 500px;
+	height: 680px;
+	margin-left: 20px;
+    padding-left: 90px;}
+    img.just{
+    	 width: 930px;
+	     height: 880px;
+	     
+    }
+    img.thanx{
+    	width: 700px;
+    	height: 600px;
+    	margin-left:7.5cm;
+    	border-radius: 50%;
+}
+ins{
+	color: aqua;
+}
+.material-icons{
+	font-size: 48px;
+	color:aqua;
+}
+i{
+	color:aqua;
+}
